@@ -31,8 +31,8 @@ if (!window.OrientationLockType) {
     window.OrientationLockType = {
         'portrait-primary': 1,
         'portrait-secondary': 2,
-        'landscape-primary': 4,
-        'landscape-secondary': 8,
+        'landscape-primary': 8,
+        'landscape-secondary': 4,
         'portrait': 3, // either portrait-primary or portrait-secondary.
         'landscape': 12, // either landscape-primary or landscape-secondary.
         'any': 15 // All orientations are supported (unlocked orientation)
